@@ -38,3 +38,21 @@ span {
   display: block;
   font-size: 1.67rem;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  span {
+    font-size: 1.2rem;
+  }
+}
